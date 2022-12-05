@@ -25,7 +25,7 @@ I really want to become a developer.
 
 ## Work experience:
 
-No work expirience yet. Just this project: [RSschool-cv](https://darya-pavitskaya.github.io/travel/).
+No work expirience yet. Just this project: [Travel](https://darya-pavitskaya.github.io/travel/).
 
 ## Education:
 
