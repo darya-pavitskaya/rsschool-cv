@@ -22,3 +22,27 @@ I really want to become a developer.
   - CSS Grid
 - Git
 - GULP
+
+## Work experience:
+
+No work expirience yet. Just this project: [RSschool-cv](https://darya-pavitskaya.github.io/travel/).
+
+## Education:
+
+1. ITMO University: ecomomics;
+2. HTML academy, interactive online courses. HTML and CSS;
+3. JavaScript/Front-end. Stage 0 (in progress).
+
+## Languages:
+
+- English A1;
+- Italian А1.
+
+## Code:
+
+```javascript
+let a = "Hello ";
+let b = "world!";
+
+console.log(a + b);
+```
