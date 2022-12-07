@@ -15,8 +15,28 @@ body {
   color: #555;
 }
 
+ul {
+  list-style: none;
+}
+
+a:link {
+  color: #555;
+  text-decoration: none;
+}
+
+a:visited,
+a:hover {
+  color: #333;
+}
+
 .container {
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
 }
