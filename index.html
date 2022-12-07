@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/briefcase.ico">
+    <title>cv</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <aside>
+          <img class="hero margin-bottom" src="assets/img/avatar.jpg" alt="Darya Pavitskaya">
+          <section class="contacts margin-bottom" id="contacts">
+            <h2 class="contacts__header aside-header">Contacts</h2>
+            <ul>
+              <li class="flex"><img src="assets/icons/map.svg" width="24" alt=""> Russia, Saint-Petersburg</li>
+              <li><a class="flex link-aside" href="tel:+79967874344"><img src="assets/icons/phone.svg" width="24" alt="">+7 (996) 787 - 43 - 44</a></li>
+              <li><a class="flex link-aside" href="mailto:dpavitskaya@protonmail.com"><img src="assets/icons/mail.svg" width="24" alt=""> dpavitskaya@protonmail.com</a></li>
+            </ul>
+          </section>
+          <section class="margin-bottom" id="social">
+            <h2 class="aside-header">Social media</h2>
+            <ul>
+              <li ><a class="flex link-aside" href="https://t.me/pavitskaya"><img src="assets/icons/telegram.svg" width="24" alt="">Telegram</a></li>
+              <li ><a class="flex link-aside" href="https://www.instagram.com/pavitskaya__/"><img src="assets/icons/instagram.svg" width="24" alt="">Instagram</a></li>
+              <li ><a class="flex link-aside" href="https://www.linkedin.com/in/darya-pavitskaya-419b43205/"><img src="assets/icons/linkedin.svg" width="24" alt="">Linkedin</a></li>
+              <li ><a class="flex link-aside" href="https://twitter.com/pavitskaya__"><img src="assets/icons/twitter.svg" width="24" alt="">Twitter</a></li>
+            </ul>
+          </section>
+          <section class="margin-bottom" id="skills">
+            <h2 class="aside-header">Hard skills</h2>
+            <ul>
+              <li class="flex"><img src="assets/icons/js.svg" alt="" width="24">Basic js</li>
+              <li><span class="flex"><img src="assets/icons/html.svg" alt="" width="24"> HTML5</span>
+                  <ul>
+                      <li>Accessibility</li>
+                      <li>Semantic HTML</li>
+                  </ul>
+              </li>
+              <li><span class="flex"><img src="assets/icons/css.svg" alt="" width="24">CSS</span>
+                <ul>
+                    <li>Less/Sass</li>
+                    <li>Flex box</li>
+                </ul>
+              </li>
+              <li class="flex"><img src="assets/icons/tree-structure.svg" width="24" alt="">BEM</li>
+              <li class="flex"><img src="assets/icons/github.svg" width="24" alt="">Git</li>
+            </ul>
+          </section>
+          <section id="languages">
+            <h2 class="aside-header">Languages</h2>
+            <ul>
+              <li>English A1</li>
+              <li>Italian А1</li>
+          </ul>
+          </section>
+        </aside>
+        <main>
+          <h1>Frontend Developer Darya Pavitskaya</h1>
+          <header>
+            <nav>
+              <ul class="list-nav">
+                <li class="list-nav__item"><a class="list-nav__link" href="#contacts">Contacts</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#social">Social media</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#skills">Hard skills</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#languages">Languages</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#about">About</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#education">Education</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#work">Work experience</a></li>
+                <li class="list-nav__item"><a class="list-nav__link" href="#code">Code</a></li>
+              </ul>
+            </nav>
+          </header>
+          <section class="about margin-bottom padding-left" id="about">
+            <h2 class="about__header main-header">About me</h2>
+            <p class="about__text">
+              I'm 27 years old. I really want to become a good developer.
+            </p>
+          </section>
+          <section class="education margin-bottom padding-left" id="education">
+            <h2 class="main-header">Education</h2>
+            <dl class="education__list">
+              <dt class="education__item"><a class="education__link" href="https://itmo.ru/ru/">1. ITMO University: ecomomics</a></dt>
+              <dd class="education__item">(2013 - 2017)</dd>
+              <dt class="education__item"><a class="education__link" href="https://htmlacademy.ru/intensive/htmlcss">2. HTML academy, interactive online courses. HTML and CSS</a></dt>
+              <dd class="education__item">(2020)</dd>
+              <dt class="education__item"><a class="education__link" href="https://wearecommunity.io/events/js-stage0-rss-2021q4">3. JavaScript/Front-end. Stage 0 (in progress)</a></dt>
+              <dd class="education__item">(2022)</dd>
+            </dl>
+          </section>
+          <section class="work margin-bottom" id="work">
+            <h2 class="main-header">Work experience</h2>
+            <p class="work__text margin-bottom">No work expirience yet. Just these projects:</p>
+            <ul class="work__list">
+              <li><a class="work__link" href="https://darya-pavitskaya.github.io/travel/"><img class="work__img" src="assets/img/travel.jpg" width="300" alt="The project Travel"></a></li>
+              <li><a class="work__link" href="https://darya-pavitskaya.github.io/Omnifood/"><img class="work__img" src="assets/img/omnifood.jpg" width="300" alt="The project Omnifood"></a></li>
+            </ul>
+          </section>
+          <section class="margin-bottom padding-left" id="code">
+            <h2 class="main-header">Code</h2>
+            <p class="code__text">
+              <code class="code__desc">
+              let a = "Hello ";<br>
+              let b = "world!";<br>
+              console.log(a + b);
+              </code>
+          </p>
+          </section>
+          <footer class="footer">
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__link" href="https://github.com/darya-pavitskaya"><img class="github" src="assets/icons/github-footer.svg" alt="logo github" width="50"></a></li>
+              <li class="footer__item"><a class="footer__link" href="https://rs.school/js-stage0/"><img class="rsschool" src="assets/icons/rs_school2.svg" alt="logo rsschool" width="120"></a></li>
+              <li class="footer__item"><span>2022 &copy;</span></li>
+          </ul>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
