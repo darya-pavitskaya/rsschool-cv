@@ -1,16 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-BODY > * {
-  outline: 2px solid deeppink;
+html {
+  font-size: 62.5%; /* 10px/ 16px = 0.625 = 62.5%*/
 }
-BODY > * > * {
-  outline: 2px dashed lime;
-  outline-offset: -2px;
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
-BODY > * > * > * {
-  outline: 2px dotted dodgerblue;
-  outline-offset: -4px;
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 }
