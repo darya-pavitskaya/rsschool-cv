@@ -1,29 +1,29 @@
-# _Darya Pavitskaya_ <br><hr>
+# _Darya Pavitskaya_ <br>
 
-## Contacts<hr>
+## Contacts
 
 - Phone: +79967874344
 - Email: dpaviskaya@gmail.com
-- Github: [darya-pavitskaya](https://github.com/darya-pavitskaya)<br><hr>
+- Github: [darya-pavitskaya](https://github.com/darya-pavitskaya)<br>
 
-## About me<hr>
+## About me
 
 I'm a novice developer, but I know how to work in a team<br>
 
-## Skills <br><hr>
+## Skills <br>
 
 - HTMl
 - CSS
-- Git <br>
+- Git
 
-## Code <hr>
+## Code
 
 `const a = 1; const b = 2; alert(a + b);`<br>
 
-## Education <hr>
+## Education
 
-- University: ITMO: Macroeconomic planning and forecasting<br>
+- University: ITMO. Macroeconomic planning and forecasting<br>
 
-## English <hr>
+## English
 
 - A1
